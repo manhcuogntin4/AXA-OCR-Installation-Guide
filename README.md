@@ -30,4 +30,10 @@ Test if pyclstm successful install
 >>python
 >>import pyclstm
 
+Step 3 Install Tesseract
+Step 3a
+sudo apt-get install tesseract-ocr
+Step 3b 
+Install python tesseract
+
 
