@@ -36,3 +36,6 @@ sudo apt-get install tesseract-ocr
 Step 3b Install python tesseract
 pip install pytesseract
 
+Install easydict and python-openCV
+sudo apt-get install python-opencv
+
