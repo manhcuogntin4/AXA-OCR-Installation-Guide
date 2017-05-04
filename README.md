@@ -56,3 +56,6 @@ Change the rule to make port 80 avaiable for ec2 instance
     Use the drop down and add HTTP (port 80)
     Click Apply and enjoy
 
+Step 6:
+Install imagemagick
+sudo apt-get install imagemagick
