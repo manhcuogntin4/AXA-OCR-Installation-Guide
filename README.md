@@ -38,6 +38,7 @@ pip install pytesseract
 
 Install easydict and python-openCV
 sudo apt-get install python-opencv
+
 Step 4 :
 Upload axa-code to ec2 instance.
 cd to caffe-faster-rcnn
@@ -46,3 +47,12 @@ cd to Caffe root
 run two command
 ./scripts/download_model_binary.py models/bvlc_reference_caffenet
 ./data/ilsvrc12/get_ilsvrc_aux.sh
+
+Step 5: 
+Change the rule to make port 80 avaiable for ec2 instance
+    Go to the "Network & Security" -> Security Group settings in the left hand navigation
+    Find the Security Group that your instance is apart of
+    Click on Inbound Rules
+    Use the drop down and add HTTP (port 80)
+    Click Apply and enjoy
+
