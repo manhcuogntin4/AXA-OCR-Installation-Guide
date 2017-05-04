@@ -59,3 +59,17 @@ Change the rule to make port 80 avaiable for ec2 instance
 Step 6:
 Install imagemagick
 sudo apt-get install imagemagick
+
+Step 7: Optional
+Install aws configure for copy file between aws and ec2
+
+$> aws configure
+
+Access key id : <acces key>
+
+Secret Access Key : <secret access key>
+
+Zone : eu-west-1
+
+Format : json
+
