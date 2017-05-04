@@ -38,4 +38,11 @@ pip install pytesseract
 
 Install easydict and python-openCV
 sudo apt-get install python-opencv
-
+Step 4 :
+Upload axa-code to ec2 instance.
+cd to caffe-faster-rcnn
+config the file Makefile.config like file Makefile.config in caffe setup
+cd to Caffe root
+run two command
+./scripts/download_model_binary.py models/bvlc_reference_caffenet
+./data/ilsvrc12/get_ilsvrc_aux.sh
