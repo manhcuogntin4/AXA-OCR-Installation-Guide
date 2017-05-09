@@ -1,4 +1,4 @@
-# AXA-OCR-Installation-Guide
+# OCR-Installation-Guide
 Step 1 Install Caffe
 
 Step 1.1 : Login AWS console
